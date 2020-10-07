@@ -1,0 +1,60 @@
+Arguments: 
+  /usr/local/bin/node /Users/damon/.yarn/bin/yarnpkg install
+
+PATH: 
+  /Users/damon/.yarn/bin:/Users/damon/.config/yarn/global/node_modules/.bin:/usr/local/opt/ruby/bin:/Users/damon/Library/Android/sdk//tools:/Users/damon/Library/Android/sdk//platform-tools:/Users/damon/Documents/thundersdata/arcanist/arcanist/bin:/Users/damon/Documents/github/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/clojure
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.16.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/Users/damon/.yarn/lib/cli.js:141376:19)
+      at Object.onceWrapper (events.js:416:28)
+      at ClientRequest.emit (events.js:310:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:714:9)
+      at Object.onceWrapper (events.js:416:28)
+      at TLSSocket.emit (events.js:310:20)
+      at TLSSocket.Socket._onTimeout (net.js:479:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~39.0.2",
+      "expo-status-bar": "~1.0.2",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz",
+      "react-native-web": "~0.13.12"
+    },
+    "devDependencies": {
+      "react-native-web": "~0.13.7",
+      "@types/react": "~16.9.35",
+      "@types/react-dom": "~16.9.8",
+      "@types/react-native": "~0.63.2",
+      "typescript": "~3.9.5"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

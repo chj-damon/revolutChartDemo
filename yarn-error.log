@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /Users/damon/.yarn/bin/yarnpkg install
+  /usr/local/bin/node /Users/damon/.yarn/bin/yarn.js
 
 PATH: 
   /Users/damon/.yarn/bin:/Users/damon/.config/yarn/global/node_modules/.bin:/usr/local/opt/ruby/bin:/Users/damon/Library/Android/sdk//tools:/Users/damon/Library/Android/sdk//platform-tools:/Users/damon/Documents/thundersdata/arcanist/arcanist/bin:/Users/damon/Documents/github/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/clojure
